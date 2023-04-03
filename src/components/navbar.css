@@ -1,0 +1,62 @@
+
+section {
+    margin-top: 50px;
+}
+
+header {
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    padding: 0 5%;
+
+}
+header  .logo a {
+    font-size: 25px;
+    color: #29d9d5;
+ 
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+header  .logo a span {
+    color: #fff;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+
+}
+.menu li  {
+    margin: 0 15px;
+    list-style-type: none;
+}
+.menu li a {
+    color: #fff;
+    font-size: 14px;
+}
+.btn-reservation {
+    color: #29d9d5;
+    font-size: 14px;
+    border: 2px solid #29d9d5;
+    padding: 5px 20px;
+    transition: 0.5s;
+    font-weight: bolder;
+}
+.btn-reservation:hover {
+    background-color: #29d9d5;
+    color: #fff;
+ 
+}

@@ -1,0 +1,31 @@
+
+#home {
+    background: linear-gradient(rgba(0,0,0,0.1),#333);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+.parag{
+    position: absolute;
+}
+.parag h4 {
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.parag p {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.home-btn {
+    margin-bottom: 20px;
+}
+
+
